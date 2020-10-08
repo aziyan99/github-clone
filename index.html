@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="./dist/css/styles.css" />
+    <style>
+      * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+          "Noto Color Emoji";
+      }
+    </style>
+  </head>
+  <body class="bg-gray-200">
+    <div class="">
+      <!-- Navbar -->
+      <nav class="w-full bg-black py-3">
+        <div class="px-10 flex items-center h-10">
+          <!-- Left logo -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-12 text-white"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1"
+              d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
+            />
+          </svg>
+
+          <input
+            type="text"
+            class="w-auto appreance-none mx-10 h-8 rounded-md block bg-gray-900 text-gray-800 border border-gray-800 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 focus:text-black"
+            placeholder="&nbsp;&nbsp;&nbsp;Search ..."
+          />
+          <!-- Links -->
+          <ul class="flex flex-row">
+            <li>
+              <a
+                href="#"
+                class="text-gray-300 text-sm mx-2 font-bold tracking-wider"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-gray-300 text-sm mx-2 font-semibold tracking-wider"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-gray-300 text-sm mx-2 font-semibold tracking-wider"
+                >Explore</a
+              >
+            </li>
+          </ul>
+          <!-- / End links -->
+          <!-- Profile -->
+          <ul class="flex flex-row ml-auto">
+            <li>
+              <a
+                href="#"
+                class="text-gray-300 text-sm mx-2 font-bold tracking-wider"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="text-white h-8 mr-2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                    d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-gray-300 text-sm mx-2 font-bold tracking-wider"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="text-white h-8"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                    d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <!-- / End profile -->
+        </div>
+      </nav>
+      <!-- / End navbar -->
+
+      <div class="flex flex-row">
+        <div
+          class="flex flex-col bg-white max-h-full w-3/12 border-r border-gray-400"
+        >
+          <div class="flex flex-row pt-8 pb-2 px-12 items-center">
+            <span class="font-bold text-lg">Topics</span>
+            <a
+              href="#"
+              class="ml-auto bg-green-600 rounded-lg py-1 px-4 text-white hover:bg-green-700"
+            >
+              New
+            </a>
+          </div>
+          <input
+            type="text"
+            class="appreance-none border border-gray-400 mx-12 h-8 rounded-lg"
+            placeholder="&nbsp;&nbsp;&nbsp;Find a topics"
+          />
+          <div class="mx-12 mt-4 flex flex-col leading-loose">
+            <a href="#" class="text-blue-800 font-bold tracking-wide">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="h-5 inline-block mr-2 text-green-600"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                />
+              </svg>
+              Dasar pemrograman
+            </a>
+            <a href="#" class="text-blue-800 font-bold tracking-wide">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="h-5 inline-block mr-2 text-green-600"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                />
+              </svg>
+              Basis data
+            </a>
+            <a href="#" class="text-blue-800 font-bold tracking-wide">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="h-5 inline-block mr-2 text-green-600"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                />
+              </svg>
+              Organisasi & Arst. Komp.
+            </a>
+            <a href="#" class="text-blue-800 font-bold tracking-wide">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="h-5 inline-block mr-2 text-green-600"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                />
+              </svg>
+              Kalkulus
+            </a>
+            <a href="#" class="text-blue-800 font-bold tracking-wide">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                class="h-5 inline-block mr-2 text-green-600"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                />
+              </svg>
+              Kemaritiman
+            </a>
+
+            <a href="#" class="text-gray-800 font-light text-sm tracking-wide">
+              Load more
+            </a>
+          </div>
+          <hr class="mx-10 mt-2" />
+          <div class="px-12 pt-5">
+            <h3 class="mb-2 font-medium text-lg">Share?</h3>
+            <p class="text-gray-600">
+              Want to add another topic, feel free to press new button and type
+              the topic that the learning resources you want to share.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-col bg-gray-200 w-7/12">
+          <h2 class="mt-5 ml-12 text-3xl font-light tracking-wide">Resource</h2>
+
+          <div class="flex flex-col border-b border-gray-400 py-3">
+            <div class="flex flex-row ml-12 mt-3">
+              <img
+                src="https://api.adorable.io/avatars/285/abott@adorable.png"
+                alt="avatars"
+                class="rounded-full h-16 w-1/12"
+              />
+              <div class="flex flex-col ml-8 w-11/12">
+                <span class=""
+                  ><strong>Raja Azian</strong> post new resource in
+                  <strong>Basis data</strong></span
+                >
+                <div
+                  class="flex flex-row border border-gray-400 rounded-lg bg-gray-100 mt-2"
+                >
+                  <div class="flex flex-col px-2 py-2">
+                    <h3 class="text-black text-lg">rajaazian/ddl-dml</h3>
+                    <p class="text-gray-600 text-xs mt-1">
+                      An first week of database course with Data definition
+                      language
+                    </p>
+                    <span class="text-xs text-gray-600">Updated, 7 Oct</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col border-b border-gray-400 py-3">
+            <div class="flex flex-row ml-12 mt-3">
+              <img
+                src="https://api.adorable.io/avatars/285/abott@adorable.png"
+                alt="avatars"
+                class="rounded-full h-16 w-1/12"
+              />
+              <div class="flex flex-col ml-8 w-11/12">
+                <span class=""
+                  ><strong>Raja Azian</strong> post new resource in
+                  <strong>Dasar pemrograman</strong></span
+                >
+                <div
+                  class="border border-gray-400 rounded-lg bg-gray-100 h-20 mt-2"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border-b border-gray-400 py-3">
+            <div class="flex flex-row ml-12 mt-3">
+              <img
+                src="https://api.adorable.io/avatars/285/abott@adorable.png"
+                alt="avatars"
+                class="rounded-full h-16 w-1/12"
+              />
+              <div class="flex flex-col ml-8 w-11/12">
+                <span class=""
+                  ><strong>Raja Azian</strong> post new resource in
+                  <strong>Kalkulus</strong></span
+                >
+                <div
+                  class="border border-gray-400 rounded-lg bg-gray-100 h-20 mt-2"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border-b border-gray-400 py-3">
+            <div class="flex flex-row ml-12 mt-3">
+              <img
+                src="https://api.adorable.io/avatars/285/abott@adorable.png"
+                alt="avatars"
+                class="rounded-full h-16 w-1/12"
+              />
+              <div class="flex flex-col ml-8 w-11/12">
+                <span class=""
+                  ><strong>Raja Azian</strong> post new resource in
+                  <strong>Dasar pemrograman</strong></span
+                >
+                <div
+                  class="border border-gray-400 rounded-lg bg-gray-100 h-20 mt-2"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border-b border-gray-400 py-3">
+            <div class="flex flex-row ml-12 mt-3">
+              <img
+                src="https://api.adorable.io/avatars/285/abott@adorable.png"
+                alt="avatars"
+                class="rounded-full h-16 w-1/12"
+              />
+              <div class="flex flex-col ml-8 w-11/12">
+                <span class=""
+                  ><strong>Raja Azian</strong> post new resource in
+                  <strong>Dasar pemrograman</strong></span
+                >
+                <div
+                  class="border border-gray-400 rounded-lg bg-gray-100 h-20 mt-2"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col border-b border-gray-400 py-3">
+            <div class="flex flex-row ml-12 mt-3">
+              <img
+                src="https://api.adorable.io/avatars/285/abott@adorable.png"
+                alt="avatars"
+                class="rounded-full h-16 w-1/12"
+              />
+              <div class="flex flex-col ml-8 w-11/12">
+                <span class=""
+                  ><strong>Raja Azian</strong> post new resource in
+                  <strong>Organisasi & Arst. Komp.</strong></span
+                >
+                <div
+                  class="border border-gray-400 rounded-lg bg-gray-100 h-20 mt-2"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col bg-gray-200 h-screen w-2/12">
+          <div class="flex flex-col pt-8 px-12">
+            <span class="font-bold text-lg">Explore Topics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
